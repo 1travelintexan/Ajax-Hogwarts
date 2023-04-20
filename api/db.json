@@ -1,0 +1,34 @@
+{
+  "Gryffindor": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "wizard": true,
+      "patronus": "Stag"
+    },
+    {
+      "id": 2,
+      "name": "Ron Weasley",
+      "wizard": true,
+      "patronus": "Jack Russel Terrier"
+    },
+    {
+      "id": 3,
+      "name": "Hermione Granger",
+      "wizard": true,
+      "patronus": "Otter"
+    },
+    {
+      "id": 4,
+      "name": "Neville Longbottom",
+      "wizard": true,
+      "patronus": "Black Bear"
+    },
+    {
+      "name": "Joshua",
+      "patronous": "orca",
+      "wizard": "on",
+      "id": 5
+    }
+  ]
+}

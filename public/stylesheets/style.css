@@ -7,14 +7,14 @@
 body {
   font-family: "Roboto";
   color: white;
-  background: url("../images/hogwarts.png");
+  background: url("../images/hogwarts.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 h1,
 h2 {
-  color: #d8b362;
+  color: #92e5fe;
 }
 
 button {
@@ -40,7 +40,7 @@ button {
   margin: 50px auto 0;
   padding: 10px;
   border-radius: 20px;
-  background-color: rgba(132, 104, 10, 0.453);
+  background-color: rgba(13, 78, 244, 0.681);
   text-align: center;
 }
 

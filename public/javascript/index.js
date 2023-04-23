@@ -1,52 +1,39 @@
 const hogwartsAPI = new APIHandler("http://localhost:8000");
 
 window.addEventListener("load", () => {
+  //fetch all students
   document
     .getElementById("fetch-all")
-    .addEventListener("click", async (event) => {
-      const allCharacters = await hogwartsAPI.getFullList();
-      console.log("All characters", allCharacters);
-    });
-
+    .addEventListener("click", async (event) => {});
+  //fetch only Gryffindor students
+  document
+    .getElementById("fetch-Grffindor")
+    .addEventListener("click", async (event) => {});
+  //fetch only Slytherin students
+  document
+    .getElementById("fetch-Slytherin")
+    .addEventListener("click", async (event) => {});
+  //fetch only Hufflepuff students
+  document
+    .getElementById("fetch-Hufflepuff")
+    .addEventListener("click", async (event) => {});
+  //fetch only Ravenclaw students
+  document
+    .getElementById("fetch-Ravenclaw")
+    .addEventListener("click", async (event) => {});
   document
     .getElementById("fetch-one")
-    .addEventListener("click", async function (event) {
-      let id = document.querySelector("#characterId").value;
-      const oneCharacter = await hogwartsAPI.getOneRegister(id);
-      console.log("here is one character", oneCharacter);
-    });
+    .addEventListener("click", async function (event) {});
 
   document
     .getElementById("delete-one")
-    .addEventListener("click", async function (event) {
-      let id = document.querySelector("#characterDeleteId").value;
-      const oneCharacterDeleted = await hogwartsAPI.deleteOneRegister(id);
-      console.log("here is one character deleted", oneCharacterDeleted);
-    });
+    .addEventListener("click", async function (event) {});
 
   document
     .getElementById("edit-character-form")
-    .addEventListener("submit", async function (event) {
-      event.preventDefault();
-      console.log(event);
-    });
+    .addEventListener("submit", async function (event) {});
 
   document
     .getElementById("new-character-form")
-    .addEventListener("submit", async function (event) {
-      event.preventDefault();
-      let newStudent = {};
-      let inputs = document.querySelectorAll(".field-new input");
-      inputs.forEach((input) => {
-        console.log("input", input.name);
-        if (input.name === "cartoon") {
-          newStudent[input.name] = input.checked;
-        } else {
-          newStudent[input.name] = input.value;
-        }
-      });
-
-      const createdStudent = await hogwartsAPI.createOneRegister(newStudent);
-      console.log("here is the character to create", createdStudent);
-    });
+    .addEventListener("submit", async function (event) {});
 });

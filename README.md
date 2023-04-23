@@ -93,6 +93,9 @@ In the `api` folder, create a `db.json` file. Inside our `db.json` we will speci
 
 Then run the following code in the terminal to make our API start working:
 
+//This starts a server based on the key: value pairs in your db.json file
+//and allows us to make GET and POST requests to it
+
 ```bash
 $ json-server --watch db.json --port 8000
 ```

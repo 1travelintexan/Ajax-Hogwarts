@@ -23,12 +23,36 @@
       "name": "Neville Longbottom",
       "wizard": true,
       "patronus": "Black Bear"
+    }
+  ],
+  "Slytherin": [
+    {
+      "id": 5,
+      "name": "Tom Riddle",
+      "wizard": true,
+      "patronus": ""
     },
     {
-      "name": "Joshua",
-      "patronous": "orca",
-      "wizard": "on",
-      "id": 5
+      "id": 6,
+      "name": "Draco Malfoy",
+      "wizard": true,
+      "patronus": ""
+    }
+  ],
+  "Hufflefuff": [
+    {
+      "id": 7,
+      "name": "Cedric Diggory",
+      "wizard": true,
+      "patronus": ""
+    }
+  ],
+  "Ravenclaw": [
+    {
+      "id": 9,
+      "name": "Rowena Ravenclaw",
+      "wizard": true,
+      "patronus": ""
     }
   ]
 }

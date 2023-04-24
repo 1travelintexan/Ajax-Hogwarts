@@ -4,23 +4,33 @@ window.addEventListener("load", () => {
   //fetch all students
   document
     .getElementById("fetch-all")
-    .addEventListener("click", async (event) => {});
+    .addEventListener("click", async (event) => {
+      console.log("fetch all clicked");
+    });
   //fetch only Gryffindor students
   document
     .getElementById("fetch-Grffindor")
-    .addEventListener("click", async (event) => {});
+    .addEventListener("click", async (event) => {
+      console.log("Gryffindor clicked");
+    });
   //fetch only Slytherin students
   document
     .getElementById("fetch-Slytherin")
-    .addEventListener("click", async (event) => {});
+    .addEventListener("click", async (event) => {
+      console.log("Slytherin clicked");
+    });
   //fetch only Hufflepuff students
   document
     .getElementById("fetch-Hufflepuff")
-    .addEventListener("click", async (event) => {});
+    .addEventListener("click", async (event) => {
+      console.log("Hufflepuff clicked");
+    });
   //fetch only Ravenclaw students
   document
     .getElementById("fetch-Ravenclaw")
-    .addEventListener("click", async (event) => {});
+    .addEventListener("click", async (event) => {
+      console.log("Ravenclaw clicked");
+    });
   document
     .getElementById("fetch-one")
     .addEventListener("click", async function (event) {});

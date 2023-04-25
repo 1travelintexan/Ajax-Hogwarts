@@ -3,13 +3,13 @@ class APIHandler {
     this.BASE_URL = baseUrl;
   }
 
-  async getFullList() {}
+  async getAllStudents(house) {}
 
-  async getOneRegister() {}
+  async getOneStudent(house, id) {}
 
-  async createOneRegister() {}
+  async addOneStudent(house, newStudent) {}
 
-  updateOneRegister() {}
+  async updateOneStudent(house, id, newInformation) {}
 
-  async deleteOneRegister() {}
+  async expellOneStudent(house, id) {}
 }
